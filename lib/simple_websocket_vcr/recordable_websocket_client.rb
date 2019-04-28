@@ -1,5 +1,4 @@
 require 'delegate'
-$:.unshift File.expand_path('../lib/websocket-client-simple/lib', __FILE__)
 require 'websocket-client-simple'
 require 'base64'
 require 'simple_websocket_vcr/errors'

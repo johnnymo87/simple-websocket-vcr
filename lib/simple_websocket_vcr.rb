@@ -1,7 +1,6 @@
 require 'json'
 require 'yaml'
-$:.unshift File.expand_path('../lib/websocket-client-simple/lib', __FILE__)
-$:.unshift File.expand_path('../lib/websocket-client-simple/lib/event_emitter/lib', __FILE__)
+$:.unshift File.expand_path('../../lib/websocket-client-simple/lib/event_emitter/lib', __FILE__)
 require 'websocket-client-simple'
 require 'simple_websocket_vcr/cassette'
 require 'simple_websocket_vcr/configuration'
