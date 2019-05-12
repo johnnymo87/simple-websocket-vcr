@@ -20,6 +20,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   gem.add_runtime_dependency 'websocket'
+  gem.add_runtime_dependency 'faye-websocket'
 
   gem.add_development_dependency 'coveralls', '~> 0.8'
   gem.add_development_dependency 'rspec-rails', '~> 3.0'

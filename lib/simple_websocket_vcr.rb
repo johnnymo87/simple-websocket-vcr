@@ -6,8 +6,10 @@ require 'simple_websocket_vcr/cassette'
 require 'simple_websocket_vcr/configuration'
 require 'simple_websocket_vcr/errors'
 require 'simple_websocket_vcr/recordable_websocket_client'
+require 'simple_websocket_vcr/recordable_faye_websocket_client'
 require 'simple_websocket_vcr/version'
 require 'simple_websocket_vcr/monkey_patch'
+require 'simple_websocket_vcr/faye_monkey_patch'
 
 module WebSocketVCR
   extend self
